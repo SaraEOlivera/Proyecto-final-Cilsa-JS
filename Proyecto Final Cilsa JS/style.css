@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-image: url(images/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: transparent;
+  width: 800px;
+  height: 350px;
+  position: relative;
+  top: 150px;
+  left: 500px;
+}
+
+.tarea {
+  font-size: 20px;
+  width: 50%;
+  height: 10%;
+  background: none;
+  border: 3px solid #2c32ed;
+  color: #ffff;
+  position: relative;
+  top: 50px;
+  left: 40px;
+  border-radius: 7%;
+}
+
+.tarea:focus {
+  outline: none;
+  border: 4px solid #2a2fd2;
+}
+
+.tarea::placeholder {
+  color: rgb(209, 205, 205);
+}
+
+.agendar {
+  background-color: #2a2fd2;
+  color: white;
+  padding: 14px 20px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.8;
+  font-size: 21px;
+}
+
+.agendar:hover {
+  background-color: #452ef5;
+}
+
+.tareasGuardadas {
+  font-size: 30px;
+  width: 75%;
+  height: 50px;
+  background: #3f428f;
+  filter: opacity(75%);
+  color: #ffff;
+  position: relative;
+  top: 85px;
+  left: 30px;
+  margin: -8px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.tareasGuardadas:hover {
+  background: #2a2fd2;
+  transition: 3ms;
+}
+
+.botonBorrar {
+  background-color: #2a2fd2;
+  color: white;
+  padding: 14px 20px;
+  position: relative;
+  left: 530px;
+  top: 45px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  height: 20px;
+  opacity: 0.8;
+  font-size: 21px;
+}
+
+.botonBorrar:hover {
+  background-color: transparent;
+  font-weight: 500;
+  transition: 2ms;
+}
